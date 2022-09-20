@@ -5,9 +5,10 @@ This repo implements a video-based Person Re-Identification algorithm on a singl
 
 I use the implementation of StrongSORT from [Mikel Brostrom](https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet). To make it easier to use, I created an ipynb file to run inference quickly. To run the demo, do the followings:
 1. Clone the repo by typing `git clone --recurse-submodules https://github.com/austenjs/Yolov5_StrongSORT_OSNet.git` in the terminal.
-2. Open *main.ipynb* in Jupyter Notebook or Google Colab.
-3. Click *Run All* at the top of the notebook file.
-4. At the last cell, you could see the real-time demo of the video on a sample video.
+2. Install the dependencies by typing `pip install -r requirements.txt` in the terminal. (Make sure you have pip installed on your computer).
+3. Open *main.ipynb* in Jupyter Notebook or Google Colab.
+4. Click *Run All* at the top of the notebook file.
+5. At the last cell, you could see the real-time demo of the video on a sample video.
 
 **Note**: The real-time demo of the video can't be seen at Google Colab as `cv2.imshow()` is incompatible with Google Colab. Refer to this [link](https://github.com/jupyter/notebook/issues/3935)
 
